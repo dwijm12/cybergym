@@ -348,6 +348,7 @@ def run_with_configs(codex_args: CodexArgs, task_args: TaskArgs):
 				container_name="codex-" + agent_id,
 				log_dir=log_dir,
 				input_dir=tmp_input_dir,
+				auth_dir=codex_args.auth_dir,
 				pem_path=codex_args.pem_path,
 				max_iter=codex_args.max_iter,
 				timeout=codex_args.timeout,
