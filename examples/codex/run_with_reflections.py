@@ -384,3 +384,19 @@ if __name__ == "__main__":
     console_handler.setFormatter(formatter)
     logger.addHandler(console_handler)
     main()
+
+'''
+Example run:
+python3 run_with_reflections.py \
+  --model gpt-5.2-codex \
+  --log_dir task_output/logs \
+  --tmp_dir task_output/tmp \
+  --auth_dir /Users/dwij/.codex \
+  --pem_path /Users/dwij/.mitmproxy/mitmproxy-ca-cert.pem \
+  --max_iter 500 \
+  --remove_tmp false \
+  --task_id arvo:43688 \
+  --data_dir /Users/dwij/Documents/repos/cybergym/cybergym_data/data \
+  --server host.docker.internal:8666 \
+  --difficulty level1
+  '''
