@@ -393,7 +393,7 @@ python3 run_with_reflections.py \
   --tmp_dir task_output/tmp \
   --auth_dir /Users/dwij/.codex \
   --pem_path /Users/dwij/.mitmproxy/mitmproxy-ca-cert.pem \
-  --max_iter 500 \
+  --max_iter 175 \
   --remove_tmp false \
   --task_id arvo:43688 \
   --data_dir /Users/dwij/Documents/repos/cybergym/cybergym_data/data \
